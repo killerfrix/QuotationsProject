@@ -1,0 +1,110 @@
+header nav menu{
+    margin-left: 0;
+    padding-left: 0;
+    position: relative;
+
+    border: gray 1px solid;
+}
+
+.nav{
+    display: inline-block;
+}
+
+header nav menu input{
+    position: absolute;
+    border: gray 1px solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    width: 300px;
+    height: 38px;
+}
+
+header nav menu a img{
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+}
+
+.nav-img{
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    padding: 5px;
+    right: 0;
+}
+
+header nav ul{
+    padding: 0;
+    margin: -5px;
+
+    text-align: center;
+}
+
+.offers{
+    display: inline;
+    border: gray 1px solid;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: -2px;
+}
+
+.products{
+    padding: 0;
+    text-align: center;
+    list-style: none;
+
+    display:-ms-inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+    margin: 7px;
+    margin-top: 18px;
+}
+
+.brands{
+    display: inline-block;
+    border: gray 1px solid;
+    list-style: none;
+
+    padding-left: 177px;
+    padding-right: 177px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    margin: 5px;
+}
+
+.products section{
+    border: gray 1px solid;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+    background-color: aliceblue;
+}
+
+.product{
+    display: inline-block;
+    list-style: none;
+
+    padding: 20px;
+    margin: 0px;
+}
+
+.product img{
+    position: relative;
+    width: 120px;
+    height: 80px;
+}
+
+.products h5{
+    position: relative;
+    margin: 0px;
+    margin-top: 0;
+    padding: 0;
+
+}
+
