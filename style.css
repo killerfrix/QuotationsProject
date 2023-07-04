@@ -78,6 +78,7 @@ header nav ul{
 }
 
 .products section{
+    display: inline-block;
     border: gray 1px solid;
     margin: 0;
     padding: 0;
@@ -95,14 +96,14 @@ header nav ul{
 
 .product img{
     position: relative;
-    width: 120px;
-    height: 80px;
+    width: 140px;
+    height: 100px;
 }
 
 .products h5{
     position: relative;
-    margin: 0px;
-    margin-top: 0;
+    margin: 5px;
+    margin-top: -15px;
     padding: 0;
 
 }
