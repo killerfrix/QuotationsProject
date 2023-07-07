@@ -12,44 +12,86 @@ header nav menu {
   background-color: white;
 }
 
-.nav {
-  display: inline-block;
+#navigation {
+  position: absolute;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  left: 1px;
 }
 
-header nav menu input {
+#menu-img {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 4.5px;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu {
+  color: #000;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 2px;
+  left: 4.5px;
+}
+
+.icon-menu:before {
+  content: "\e900";
+}
+
+/*navigation*/
+.sliding--menu__wrapper nav {
+  -moz-transition: all 200ms ease-in;
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  margin: 0 0 0 -600px;
+  z-index: 6;
+}
+.sliding--menu__wrapper nav ul {
+  list-style: none;
+}
+.sliding--menu__wrapper nav a {
+  display: block;
+}
+
+/*menu show/hide*/
+.sliding--menu__wrapper input[type="checkbox"] {
+  display: none;
+}
+.sliding--menu__wrapper input[type="checkbox"]:checked ~ nav {
+  margin-left: 0;
+}
+
+header nav menu .nav-search {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 
-  position: fixed;
+  position: absolute;
   border: gray 1px solid;
   border-top: 0px;
   border-bottom: 0px;
   width: 77%;
-  height: 40px;
-  font-size: medium;
-}
-
-.menu {
-  width: 30px;
-  height: 30px;
-  padding: 3px;
-}
-
-.nav-menu {
-  border: none;
-  z-index: 1;
-}
-
-.menu .slide-menu {
-  list-style: none;
-  background-color: #f0ec8b;
   height: 100%;
+  font-size: medium;
+  display: flex;
   top: 0;
-  left: 0;
-  margin: 0;
-  padding: 20px;
-  z-index: 0;
+  left: 50px;
+}
+
+body header nav menu .nav-menu img {
+  width: 20px;
+  height: 20px;
 }
 
 .nav-img {

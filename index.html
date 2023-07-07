@@ -6,22 +6,36 @@
     <title>Test</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  
+
   <body>
     <header>
       <nav>
         <menu>
-          <input class="nav-menu" type="checkbox">
-            <img src="./icons/menu.png" class="menu" alt="" />
-          </input>
-  
+          <div class="sliding--menu__wrapper">
+            <input type="checkbox" id="navigation" />
+
+            <label id="hamburger--icon" for="navigation">
+              <img src="./icons/menu.png" class="icon-menu" alt="" />
+            </label>
+
+            <nav>
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                  <a href="#">About us</a>
+                  <a href="#">Contact us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
           <input class="nav-search" type="search" />
-  
+
           <a href="">
             <img class="nav-img" src="./icons/filtrar.png" alt="" />
           </a>
         </menu>
-     
+
         <ul>
           <li class="offers">25%</li>
           <li class="offers">50%</li>
@@ -69,17 +83,5 @@
         <h5>SAMSUNG Monitor Gaming</h5>
       </section>
     </ul>
-
-    <menu class="menu">
-      <ul class="slide-menu">
-        <li>Customer</li>
-        <li>Home</li>
-        <li>Account</li>
-        <li>Address</li>
-        <li>Purchases</li>
-        <li>Help</li>
-        <li>Config</li>
-      </ul>
-    </menu>
   </body>
 </html>
