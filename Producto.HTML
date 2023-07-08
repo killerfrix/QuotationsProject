@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Page</title>
+  <style>
+    /* Basic CSS styles */
+    body {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='400' height='706' preserveAspectRatio='none' viewBox='0 0 400 706'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1060%26quot%3b)' fill='none'%3e%3crect width='400' height='706' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1061%26quot%3b)'%3e%3c/rect%3e%3cpath d='M9.819902241825906 296.77741209952086L-11.2091164471223 381.1201993081233 94.16268945042832 317.8064307884691z' fill='rgba(240%2c 236%2c 139%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M211.36923452291921 242.81993693586122L197.69156868081322 307.1682954840181 262.03992722897004 320.84596132612404 275.71759307107607 256.4976027779672z' fill='rgba(240%2c 236%2c 139%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M418.847%2c683.703C446.594%2c685.368%2c477.629%2c680.038%2c491.543%2c655.974C505.467%2c631.893%2c493.622%2c602.948%2c479.345%2c579.074C465.556%2c556.016%2c445.713%2c534.308%2c418.847%2c534.411C392.111%2c534.513%2c371.465%2c555.805%2c359.146%2c579.534C347.864%2c601.266%2c347.666%2c626.825%2c359.842%2c648.069C372.087%2c669.435%2c394.265%2c682.228%2c418.847%2c683.703' fill='rgba(240%2c 236%2c 139%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M325.766%2c502.502C359.45%2c501.369%2c379.938%2c469.84%2c397.21%2c440.899C415.129%2c410.874%2c436.237%2c376.236%2c419.419%2c345.58C402.244%2c314.275%2c361.397%2c308.352%2c325.766%2c310.674C294.527%2c312.71%2c267.082%2c329.624%2c251.11%2c356.548C234.772%2c384.088%2c230.903%2c417.492%2c245.485%2c446C261.457%2c477.225%2c290.713%2c503.681%2c325.766%2c502.502' fill='rgba(240%2c 236%2c 139%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M389.9485951886299 371.8970791179691L350.91856467743094 383.0887602730809 387.22110166569814 436.0379654623234z' fill='rgba(240%2c 236%2c 139%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M174.26150312873202 564.1233270057098L66.79788335215463 527.1206352925728 29.795191639017702 634.5842550691502 137.2588114155951 671.5869467822872z' fill='rgba(240%2c 236%2c 139%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M347.49032018066265 14.287019563551421L252.4367840493832 91.10997986784086 351.4940379225438 131.13170829180888z' fill='rgba(240%2c 236%2c 139%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M132.265%2c734.649C162.68%2c732.215%2c180.416%2c703.386%2c194.785%2c676.469C208.036%2c651.646%2c217.637%2c623.52%2c205.013%2c598.372C191.179%2c570.813%2c163.084%2c552.956%2c132.265%2c551.924C99.579%2c550.83%2c67.529%2c565.243%2c50.561%2c593.201C32.972%2c622.181%2c32.672%2c658.729%2c49.628%2c688.084C66.578%2c717.428%2c98.485%2c737.352%2c132.265%2c734.649' fill='rgba(240%2c 236%2c 139%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-58.988924934438124 648.3696035177611L-19.57582977169986 729.1784239384539 21.819895486254616 608.9565083550228z' fill='rgba(240%2c 236%2c 139%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M110.136%2c501.471C129.247%2c502.438%2c148.89%2c495.176%2c158.61%2c478.694C168.46%2c461.99%2c165%2c441.421%2c155.525%2c424.502C145.793%2c407.125%2c130.036%2c391.346%2c110.136%2c392.139C91.111%2c392.897%2c79.063%2c410.826%2c70.608%2c427.886C63.26%2c442.711%2c61.641%2c459.609%2c69.471%2c474.185C77.75%2c489.598%2c92.662%2c500.587%2c110.136%2c501.471' fill='rgba(240%2c 236%2c 139%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-12.833798640039973 162.94483246001698L44.020012729569444 285.1722109106961 113.28412728497119 189.83833589919684z' fill='rgba(240%2c 236%2c 139%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M303.3084182379657 162.74577065416526L363.14285264067234 189.38577721946217 373.18564528726444 86.31412233275378z' fill='rgba(240%2c 236%2c 139%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M27.846%2c689.308C40.097%2c688.718%2c52.194%2c685.146%2c59.038%2c674.968C66.769%2c663.47%2c70.56%2c648.293%2c63.399%2c636.432C56.401%2c624.84%2c41.382%2c622.914%2c27.846%2c623.299C15.145%2c623.66%2c2.707%2c627.807%2c-4.373%2c638.358C-12.368%2c650.272%2c-16.695%2c666.12%2c-9.027%2c678.247C-1.677%2c689.871%2c14.109%2c689.97%2c27.846%2c689.308' fill='rgba(240%2c 236%2c 139%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M12.465806021690419 113.07028271275064L-23.96562115901262 184.57098442814436 47.53508055638108 221.00241160884738 83.96650773708413 149.50170989345366z' fill='rgba(240%2c 236%2c 139%2c 1)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1060'%3e%3crect width='400' height='706' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='-19.13%25' y1='10.84%25' x2='119.12%25' y2='89.16%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1061'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 1)' offset='0'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+      background-repeat: repeat;
+      background-color: #FFFFFF; /* Fondo blanco */
+    }
+    
+    .product {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px auto;
+      padding: 20px;
+      width: 400px;
+      height: 706px;
+      background-color: white;
+    }
+
+    .product-name {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .product img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .product-price {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .product-description {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: white;
+    }
+
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 4px;
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .heart-symbol {
+      font-size: 40px;
+      color: red;
+      align-self: flex-end;
+    }
+    
+    .btn i {
+      margin-left: 5px;
+    }
+    
+    .review {
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      background-color: white;
+    }
+    
+    .review-name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .review-description {
+      margin-bottom: 5px;
+    }
+    
+    .review-stars {
+      margin-bottom: 5px;
+    }
+    
+    .star {
+      color: gold;
+    }
+    
+    .search-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .search-bar input {
+      flex: 1;
+      margin-left: 10px;
+      margin-right: 10px;
+      border: none;
+      outline: none;
+    }
+    
+    .menu-icon,
+    .filter-icon {
+      font-size: 24px;
+      color: #000;
+    }
+  </style>
+  <script>
+    function addToCart() {
+      alert("Se ha agregado al carrito satisfactoriamente.");
+    }
+
+    function addToQuote() {
+      alert("Se ha agregado exitosamente.");
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="product">
+    <div class="search-bar">
+      <i class="fas fa-bars menu-icon"></i>
+      <input type="text" placeholder="Buscar...">
+      <i class="fas fa-filter filter-icon"></i>
+    </div>
+    <img src="https://m.media-amazon.com/images/I/51mDSjfTC2L._AC_SX679_.jpg" alt="Product Image">
+    <div class="heart-symbol">&hearts;</div>
+    <div class="product-description">
+      <div class="product-name">Monitor</div>
+      <div class="product-price">$189.99</div>
+      <p>Monitor gamer con 188888Hz 0ms 100 pulgadas portatil de cocina hecho a mano juego de aplastar.</p>
+    </div>
+    <a href="#" class="btn" onclick="addToCart()">
+      Agregar al carrito <i class="fas fa-shopping-cart"></i>
+    </a>
+    <br>
+    <a href="#" class="btn" onclick="addToQuote()">
+      Add to Quote <i class="fas fa-tag"></i>
+    </a>
+    <div class="review">
+      <div class="review-name">Pepe</div>
+      <div class="review-description">
+        <p>¡Excelente producto! Me encanta la calidad y el diseño.</p>
+      </div>
+      <div class="review-stars">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
