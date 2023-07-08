@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="product">
+    <div class="search-bar">
+      <i class="fas fa-bars menu-icon"></i>
+      <input type="text" placeholder="Buscar...">
+      <i class="fas fa-filter filter-icon"></i>
+    </div>
+    <img src="https://m.media-amazon.com/images/I/51mDSjfTC2L._AC_SX679_.jpg" alt="Product Image">
+    <div class="heart-symbol">&hearts;</div>
+    <div class="product-description">
+      <div class="product-name">Monitor</div>
+      <div class="product-price">$189.99</div>
+      <p>Monitor gamer con 188888Hz 0ms 100 pulgadas portatil de cocina hecho a mano juego de aplastar.</p>
+    </div>
+    <a href="#" class="btn" onclick="addToCart()">
+      Agregar al carrito <i class="fas fa-shopping-cart"></i>
+    </a>
+    <br>
+    <a href="#" class="btn" onclick="addToQuote()">
+      Add to Quote <i class="fas fa-tag"></i>
+    </a>
+    <div class="review">
+      <div class="review-name">Pepe</div>
+      <div class="review-description">
+        <p>¡Excelente producto! Me encanta la calidad y el diseño.</p>
+      </div>
+      <div class="review-stars">
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    function addToCart() {
+      alert("Se ha agregado al carrito satisfactoriamente.");
+    }
+
+    function addToQuote() {
+      alert("Se ha agregado exitosamente.");
+    }
+  </script>
+</body>
+</html>
