@@ -8,17 +8,12 @@ header nav menu {
   position: relative;
 
   border: gray 1px solid;
-  border-radius: 7px;
+  border-radius: 10px;
   background-color: white;
   height: 40px;
 }
 
-#menu-img {
-  width: 40px;
-  height: 40px;
-  position: relative;
-  left: 4.5px;
-}
+/* menu slide */
 
 [class^="icon-"],
 [class*=" icon-"] {
@@ -137,7 +132,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   color: #000;
 }
 
-.sliding--menu__wrapper nav a:nth-child(6) {
+.sliding--menu__wrapper nav a:nth-child(7) {
   border-bottom: gray 1px solid;
 }
 
@@ -153,6 +148,9 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   transform: rotate(90deg);
 }
 
+/* end menu slide */
+
+/* search bar */
 header nav menu .nav-search {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -170,11 +168,7 @@ header nav menu .nav-search {
   left: 50px;
   z-index: 1;
 }
-
-body header nav menu .nav-menu img {
-  width: 20px;
-  height: 20px;
-}
+/* end search bar */
 
 .nav-img {
   width: 30px;
@@ -287,3 +281,5 @@ header nav ul {
   margin-top: -15px;
   padding: 0;
 }
+
+/* icons */

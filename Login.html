@@ -1,24 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LOGIN</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h2>Quotation Catalog</h2>
+    <link rel="stylesheet" href="./logInStyles.css" />
+  </head>
+  <body>
     <div class="login_box">
-        <h1>Login</h1>
-        <form>
-            <label for="email">Email</label>
-            <input type="text" placeholder="Email">
-            <label for="Password">Password</label>
-            <input type="password"placeholder="Password">
-            <input type="submit" value="Login">
-            <a href="#">Lost your password?</a><br>
-            <a href="#">Don't have an account?</a>
-        </form>
+      <h1>Login</h1>
+      <form>
+        <label for="email">Email</label>
+        <input type="text" placeholder="Email" />
+        <label for="Password">Password</label>
+        <input type="password" placeholder="Password" />
+        <input type="submit" value="Login" />
+      </form>
+      <a href="#">Lost your password?</a>
+      <a href="#">Don't have an account?</a>
     </div>
-</body>
+
+    <div class="sliding--menu__wrapper">
+      <input type="checkbox" id="navigation" />
+
+      <label class="sidebarIconToggle" for="navigation">
+        <div class="icon-menu diagonal part-1"></div>
+        <div class="icon-menu horizontal"></div>
+        <div class="icon-menu diagonal part-2"></div>
+      </label>
+
+      <nav>
+        <p>Customer</p>
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+            <a href="./Login.html">Account</a>
+            <a href="#">Address</a>
+            <a href="#">Purchases</a>
+            <a href="#">Help</a>
+            <a href="#">Settings</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>
 </html>
