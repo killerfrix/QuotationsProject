@@ -127,13 +127,9 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   display: block;
   padding-top: 30px;
   border-top: gray 1px solid;
-  padding: 20px;
+  padding: 19px;
   text-decoration: none;
   color: #000;
-}
-
-.sliding--menu__wrapper nav a:nth-child(7) {
-  border-bottom: gray 1px solid;
 }
 
 /*menu show/hide*/
